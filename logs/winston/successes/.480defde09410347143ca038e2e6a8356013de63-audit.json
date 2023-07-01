@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/.480defde09410347143ca038e2e6a8356013de63-audit.json",
+    "files": [
+        {
+            "date": 1688223027063,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-01-20.log",
+            "hash": "0129c4bc9429fa0be736d77d3a0903162827b6789746acaeaf509aa7668984ae"
+        }
+    ],
+    "hashType": "sha256"
+}
