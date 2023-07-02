@@ -8,5 +8,6 @@ router.post(
   validateRequest(UserValidator.createUserValidatorWithZod),
   UserController.createUser
 );
+router.get('/', UserController.getAllUsers);
 
 export const UserRoutes = router;
