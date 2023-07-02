@@ -65,7 +65,17 @@ const getAllUsers = async (
     data: result,
   };
 };
+const getSingleUser = async (id: string): Promise<IUser | null> => {
+  const result = await User.findById(id);
+  return result;
+};
+const deleteUser = async (id: string): Promise<IUser | null> => {
+  const result = await User.findByIdAndDelete(id);
+  return result;
+};
 export const UserService = {
   createUser,
   getAllUsers,
+  getSingleUser,
+  deleteUser,
 };

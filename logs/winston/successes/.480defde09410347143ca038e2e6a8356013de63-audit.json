@@ -1,30 +1,35 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/.480defde09410347143ca038e2e6a8356013de63-audit.json",
-  "files": [
-    {
-      "date": 1688223027063,
-      "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-01-20.log",
-      "hash": "0129c4bc9429fa0be736d77d3a0903162827b6789746acaeaf509aa7668984ae"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1688229583877,
-      "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-01-22.log",
-      "hash": "83b5023cf708e34fa2c68d877778832f22db04ffb958efdeac3ffe7fed877375"
-    },
-    {
-      "date": 1688233240608,
-      "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-01-23.log",
-      "hash": "6fb6867b58b2089e143b31f77a1deeedb24a4223f93a50e702482d083a41fde3"
-    },
-    {
-      "date": 1688234986698,
-      "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-02-00.log",
-      "hash": "694c6d552b9f5d3e5a6820d4efbf70ead984bc2abcb0560b365781c56ad467ee"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/.480defde09410347143ca038e2e6a8356013de63-audit.json",
+    "files": [
+        {
+            "date": 1688223027063,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-01-20.log",
+            "hash": "0129c4bc9429fa0be736d77d3a0903162827b6789746acaeaf509aa7668984ae"
+        },
+        {
+            "date": 1688229583877,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-01-22.log",
+            "hash": "83b5023cf708e34fa2c68d877778832f22db04ffb958efdeac3ffe7fed877375"
+        },
+        {
+            "date": 1688233240608,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-01-23.log",
+            "hash": "6fb6867b58b2089e143b31f77a1deeedb24a4223f93a50e702482d083a41fde3"
+        },
+        {
+            "date": 1688234986698,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-02-00.log",
+            "hash": "694c6d552b9f5d3e5a6820d4efbf70ead984bc2abcb0560b365781c56ad467ee"
+        },
+        {
+            "date": 1688271640530,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/successes/success-2023-07-02-10.log",
+            "hash": "53c912a75885154e4c9bf1fdab2fe21a2012fc11c51a4de0dd859f1c40b1c1e3"
+        }
+    ],
+    "hashType": "sha256"
 }
