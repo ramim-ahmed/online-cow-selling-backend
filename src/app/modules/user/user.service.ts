@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { SortOrder } from 'mongoose';
 import { paginationHelpers } from '../../../helpers/paginationHelpers';
 import { IGenericResponse } from '../../../interface/common';
@@ -69,6 +70,24 @@ const getSingleUser = async (id: string): Promise<IUser | null> => {
   const result = await User.findById(id);
   return result;
 };
+const updateUser = async (
+  id: string,
+  payload: Partial<IUser>
+): Promise<IUser | null> => {
+  const { name, ...userFields } = payload;
+  const updatedData: Partial<IUser> = { ...userFields };
+
+  if (name && Object.keys(name).length > 0) {
+    Object.keys(name).forEach(key => {
+      const nameKey = `name.${key}` as keyof Partial<IUser>;
+      (updatedData as any)[nameKey] = name[key as keyof typeof name];
+    });
+  }
+  const result = await User.findOneAndUpdate({ _id: id }, updatedData, {
+    new: true,
+  });
+  return result;
+};
 const deleteUser = async (id: string): Promise<IUser | null> => {
   const result = await User.findByIdAndDelete(id);
   return result;
@@ -78,4 +97,5 @@ export const UserService = {
   getAllUsers,
   getSingleUser,
   deleteUser,
+  updateUser,
 };

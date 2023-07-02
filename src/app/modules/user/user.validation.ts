@@ -31,6 +31,25 @@ const createUserValidatorWithZod = z.object({
   }),
 });
 
+const updateUserValidatorWithZod = z.object({
+  body: z.object({
+    phoneNumber: z.string().optional(),
+    role: z.enum([...UserRole] as [string, ...string[]]).optional(),
+    password: z.string().optional(),
+    name: z
+      .object({
+        firstName: z.string().optional(),
+        middleName: z.string().optional(),
+        lastName: z.string().optional(),
+      })
+      .optional(),
+    address: z.string().optional(),
+    budget: z.number().optional(),
+    income: z.number().optional(),
+  }),
+});
+
 export const UserValidator = {
   createUserValidatorWithZod,
+  updateUserValidatorWithZod,
 };
