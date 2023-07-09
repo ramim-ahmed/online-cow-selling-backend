@@ -1,35 +1,60 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/.da72ec0ff5da00f219ebcb756f1c9d9dddd5f260-audit.json",
-  "files": [
-    {
-      "date": 1688223027074,
-      "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-01-20.log",
-      "hash": "3ff7f11af73926868523376f00876887b56a09fec1237e24facdfa37c2afa823"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1688229583883,
-      "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-01-22.log",
-      "hash": "189ba01a9df31f198a2f3f6f3c2d99a71526f1175ca6fd5e2fc70cc0670f6b77"
-    },
-    {
-      "date": 1688233240615,
-      "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-01-23.log",
-      "hash": "837004e4b61c99e550f0731f759a9f12f9e6918a7122b72cac4bcdbe899a957c"
-    },
-    {
-      "date": 1688234986704,
-      "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-02-00.log",
-      "hash": "79cd5e565dad652998f0d1b4ee54355cdae06cc897adfd996d9f11e0e2ebd5c1"
-    },
-    {
-      "date": 1688271640537,
-      "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-02-10.log",
-      "hash": "4f696ddf7c4e0f6148ad15e77747696ad70171704feaa3a30e4b40321371b1e3"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/.da72ec0ff5da00f219ebcb756f1c9d9dddd5f260-audit.json",
+    "files": [
+        {
+            "date": 1688223027074,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-01-20.log",
+            "hash": "3ff7f11af73926868523376f00876887b56a09fec1237e24facdfa37c2afa823"
+        },
+        {
+            "date": 1688229583883,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-01-22.log",
+            "hash": "189ba01a9df31f198a2f3f6f3c2d99a71526f1175ca6fd5e2fc70cc0670f6b77"
+        },
+        {
+            "date": 1688233240615,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-01-23.log",
+            "hash": "837004e4b61c99e550f0731f759a9f12f9e6918a7122b72cac4bcdbe899a957c"
+        },
+        {
+            "date": 1688234986704,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-02-00.log",
+            "hash": "79cd5e565dad652998f0d1b4ee54355cdae06cc897adfd996d9f11e0e2ebd5c1"
+        },
+        {
+            "date": 1688271640537,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-02-10.log",
+            "hash": "4f696ddf7c4e0f6148ad15e77747696ad70171704feaa3a30e4b40321371b1e3"
+        },
+        {
+            "date": 1688498649883,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-05-01.log",
+            "hash": "173b6c3196b3377adc86f6cc1d69d41a0456618f242f49960f129d6ac350404c"
+        },
+        {
+            "date": 1688588587028,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-06-02.log",
+            "hash": "d637612e30e88eeff5d6b176526feb004858f8086cd350c40aae43a09eee8443"
+        },
+        {
+            "date": 1688618892816,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-06-10.log",
+            "hash": "21e205db12fd8af3df81ff3198352331f97b2d20361185f2b141c399ca17e4b0"
+        },
+        {
+            "date": 1688930754972,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-10-01.log",
+            "hash": "591b6a25187ae778b0023c4453fa8210bd9eb64d3b556882532055522ca76f5d"
+        },
+        {
+            "date": 1688932831407,
+            "name": "/Users/macbook/web-level-2/assignment/digital-cow-hut-backend/logs/winston/errors/error-2023-07-10-02.log",
+            "hash": "aa2fb629d5ee272ea1b849198f477dc299eecc031677e4c7eeaf353d09e4aa35"
+        }
+    ],
+    "hashType": "sha256"
 }
